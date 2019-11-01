@@ -16,9 +16,9 @@ class Bing
   end
 
   def user_input
-		puts "\nWhat do you want to search for? Enter [q] to quit."
-		response = gets.chomp
-		response
+    puts "\nWhat do you want to search for? Enter [q] to quit."
+    response = gets.chomp
+    response
   end
 
   def search
